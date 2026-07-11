@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-forest-50: #f4f8f4;
+  --color-forest-100: #e5efe6;
+  --color-forest-200: #cbdfcc;
+  --color-forest-300: #a3c4a5;
+  --color-forest-400: #74a377;
+  --color-forest-500: #4e8351;
+  --color-forest-600: #3b683e;
+  --color-forest-700: #1e4620; /* Primary Forest Green */
+  --color-forest-800: #264728;
+  --color-forest-900: #1a311b;
+  --color-forest-950: #0d1a0e;
+
+  --color-earth-50: #f9f6f4;
+  --color-earth-100: #f2e9e4;
+  --color-earth-200: #e2cec4;
+  --color-earth-300: #cca899;
+  --color-earth-400: #b37e67;
+  --color-earth-500: #9c5d44;
+  --color-earth-600: #854832;
+  --color-earth-700: #5c4033; /* Primary Earth Brown */
+  --color-earth-800: #553325;
+  --color-earth-900: #472d22;
+  --color-earth-950: #261711;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F7F9F6;
+  color: #2D2D2D;
+}
+
+/* Custom scrollbar for academic look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f0ea;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbdfcc;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a3c4a5;
+}
+

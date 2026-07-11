@@ -1,0 +1,6 @@
+{
+  "name": "GreenWatch Zamfara",
+  "description": "A publication-grade academic final-year project proposal, system design document, and interactive Web-GIS community crowdsourcing prototype for environmental protection in Zamfara State, Nigeria.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
